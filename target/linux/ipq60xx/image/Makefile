@@ -107,7 +107,7 @@ define Device/qihoo_v6
 	DEVICE_DTS := qcom-ipq6018-qihoo-v6
 	DEVICE_DTS_CONFIG := config@cp03-c1
 	DEVICE_TITLE := Qihoo V6
-	DEVICE_PACKAGES := kmod-usb3 kmod-usb-phy-msm
+	DEVICE_PACKAGES := ath11k-wifi-qihoo-v6 kmod-usb3 kmod-usb-phy-msm
 endef
 TARGET_DEVICES += qihoo_v6
 

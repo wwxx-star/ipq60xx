@@ -57,6 +57,9 @@ DEFAULT_PACKAGES.tweak:=\
 	kmod-nf-nathelper \
 	kmod-nf-nathelper-extra \
 	luci \
+  luci-app-cpufreq \
+  luci-app-ramfree luci-app-wol curl ca-certificates \
+  ddns-scripts_dnspod luci-app-ddns luci-app-upnp \
 	luci-app-filetransfer \
 	luci-app-turboacc \
 	luci-lib-fs \
